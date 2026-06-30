@@ -1,6 +1,6 @@
 # Hi there, I'm Krss! 👋 (`krss-sys`)
 
-Independent Systems Developer focused on mastering C++ and Linux core fundamentals. 
+Systems Software Engineer in the making | Focused on mastering C++ memory management, Linux systems programming, and building high-performance software.
 
 ---
 
@@ -8,7 +8,7 @@ Independent Systems Developer focused on mastering C++ and Linux core fundamenta
 *Tracked automatically based on my daily code commits.*
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=krss-sys&show_icons=true&theme=tokyonight&count_private=true" height="165px"/>
+  <img src="https://github-readme-stats-one-bice.vercel.app/api?username=krss-sys&show_icons=true&theme=tokyonight&count_private=true" height="165px"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=krss-sys&layout=compact&theme=tokyonight&langs_count=6" height="165px"/>
 </p>
 <p align="left">

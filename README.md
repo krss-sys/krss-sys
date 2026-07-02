@@ -17,7 +17,7 @@ Systems Software Engineer in the making | Focused on mastering C++ memory manage
 </p>
 
 <p align="left">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=krss-sys&theme=dracula" width="100%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=krss-sys&theme=github-dark" width="100%"/>
 </p>
 
 ---

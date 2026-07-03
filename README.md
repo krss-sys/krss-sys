@@ -22,5 +22,6 @@ Systems Software Engineer in the making | Focused on mastering C++ memory manage
 
 ---
 
-### 📬 Contact
-- 📧 Email: `kgm.naoya@gmail.com`
+### 📬 Connect with Me
+- 📧 Email: `krss.infra@gmail.com`
+- 🐙 GitHub: [github.com/krss-sys](https://github.com/krss-sys)

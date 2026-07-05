@@ -8,14 +8,12 @@ Systems Software Engineer in the making | Focused on mastering C++ memory manage
 *Tracked automatically based on my daily code commits.*
 
 <p align="left">
-  <!-- Đã đổi sang cụm server dự phòng / server trâu bò hơn để tránh vỡ hình -->
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=krss-sys&show_icons=true&theme=tokyonight&count_private=true" height="165px"/>
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=krss-sys&layout=compact&theme=tokyonight&langs_count=6" height="165px"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=krss-sys&show_icons=true&theme=tokyonight&count_private=true&title_override=Kross'%20GitHub%20Stats" height="165px"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=krss-sys&layout=compact&theme=tokyonight&langs_count=6&title_override=Kross'%20Most%20Used%20Languages" height="165px"/>
 </p>
 
 <p align="left">
-  <!-- Dùng Metrics server thay cho Heroku nát để giữ chuỗi streak mượt mà -->
-  <img src="https://github-readme-streak-stats-five.vercel.app/?user=krss-sys&theme=tokyonight"/>
+  <img src="https://streak-stats.demolab.com/?user=krss-sys&theme=tokyonight"/>
 </p>
 
 <p align="left">

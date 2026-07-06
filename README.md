@@ -13,7 +13,7 @@ Systems Software Engineer in the making | Focused on mastering C++ memory manage
 </p>
 
 <p align="left">
-  <img src="https://github-readme-streak-stats.vercel.app/?user=krss-sys&theme=tokyonight" alt="Krss GitHub Streak"/>
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=krss-sys&layout=compact&theme=tokyonight&custom_title=System%20Streak%20Metrics" height="165px"/>
 </p>
 
 <p align="left">

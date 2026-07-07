@@ -13,7 +13,7 @@ Systems Software Engineer in the making | Focused on mastering C++ memory manage
 </p>
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=krss-sys&layout=compact&theme=tokyonight&custom_title=System%20Streak%20Metrics" height="165px"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=krss-sys&theme=tokyonight" width="100%"/>
 </p>
 
 <p align="left">

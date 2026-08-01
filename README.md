@@ -26,7 +26,7 @@ Aspiring **Systems Software Engineer** focused on **Low-Level Systems**, **High-
 ### 🧩 Problem Solving & Competitive Programming
 
 <p align="left">
-  <!-- LeetCode Badge  -->
+  <!-- LeetCode Badge -->
   <a href="https://leetcode.com/u/Krss_sys/">
     <img src="https://img.shields.io/badge/LeetCode-Profile_Krss__sys-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
   </a>

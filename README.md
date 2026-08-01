@@ -52,7 +52,7 @@ Aspiring **Systems Software Engineer** focused on **Low-Level Systems**, **High-
 ---
 
 ### 📬 Connect with Me
-- 📧 **Email:** `krss.infra@gmail.com`
+- 📧 **Email:** krss.infra@gmail.com
 - 🐙 **GitHub:** [github.com/krss-sys](https://github.com/krss-sys)
 - 🧩 **LeetCode:** [leetcode.com/u/Krss_sys/](https://leetcode.com/u/Krss_sys/)
 - 🏆 **AtCoder:** [atcoder.jp/users/krss](https://atcoder.jp/users/krss)

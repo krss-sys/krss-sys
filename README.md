@@ -23,36 +23,9 @@ Aspiring **Systems Software Engineer** focused on **Low-Level Systems**, **High-
 
 ---
 
-### 🧩 Problem Solving & Competitive Programming
-
-<p align="left">
-  <!-- NeetCode Badge -->
-  <a href="https://neetcode.io/user/ShadowKraven149">
-    <img src="https://img.shields.io/badge/NeetCode-00C853?style=flat-square&logo=leetcode&logoColor=white" />
-  </a>
-  <!-- AtCoder Badge -->
-  <a href="https://atcoder.jp/users/krss">
-    <img src="https://img.shields.io/badge/AtCoder-000000?style=flat-square&logo=atcoder&logoColor=white" />
-  </a>
-  <!-- Kenkoooo Stats -->
-  <a href="https://kenkoooo.com/atcoder/#/user/krss">
-    <img src="https://img.shields.io/badge/Kenkoooo-339933?style=flat-square&logo=github&logoColor=white" />
-  </a>
-</p>
-
----
-
-### 📊 GitHub Systems Analytics
-*Tracked automatically based on my daily code commits.*
-
-<p align="left">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=krss-sys&theme=github-dark" width="100%"/>
-</p>
-
----
-
-### 📬 Connect with Me
+### 📬 Connect & Profiles
 - 📧 **Email:** krss.infra@gmail.com
 - 🐙 **GitHub:** [github.com/krss-sys](https://github.com/krss-sys)
 - 🚀 **NeetCode:** [neetcode.io/user/ShadowKraven149](https://neetcode.io/user/ShadowKraven149)
 - 🏆 **AtCoder:** [atcoder.jp/users/krss](https://atcoder.jp/users/krss)
+- 📊 **AtCoder Stats:** [kenkoooo.com/atcoder/#/user/krss](https://kenkoooo.com/atcoder/#/user/krss)

@@ -13,8 +13,8 @@ Focused on Low-Level Systems, High-Performance Computing, and Distributed System
 
 ### 📌 Current Status
 
-* **Learning:** Modern C++ (C++20), Systems Architecture & DSA.
-* **Goal:** Target System Software Engineer roles in high-performance / infrastructure environments.
+* **Learning:** Low-Level Systems Architecture, Network Protocols & DSA.
+* **Goal:** Target Systems Software Engineer roles in high-performance / infrastructure environments.
 
 ---
 
@@ -26,4 +26,4 @@ Focused on Low-Level Systems, High-Performance Computing, and Distributed System
 
 ### 📬 Contact
 
-* **Email:** krss.infra@gmail.com
+Email: krss.infra@gmail.com

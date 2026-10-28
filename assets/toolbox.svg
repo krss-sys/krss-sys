@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 300" role="img" aria-label="Toolbox: C++20; CMake and GCC/G++; POSIX sockets, TCP, length-prefixed framing; std::thread, std::mutex, std::condition_variable; GoogleTest, ThreadSanitizer, UBSan; strace">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 208" role="img" aria-label="Toolbox: C++20; Linux, POSIX sockets; CMake, GCC/G++; GoogleTest, ThreadSanitizer, AddressSanitizer, strace">
   <style>
     .mono { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; }
     .sans { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
@@ -8,8 +8,8 @@
     .dot { fill: #f34b7d; }
   </style>
 
-  <rect width="830" height="300" rx="12" fill="#0d1117"/>
-  <rect x="0.5" y="0.5" width="829" height="299" rx="12" fill="none" stroke="#30363d"/>
+  <rect width="830" height="208" rx="12" fill="#0d1117"/>
+  <rect x="0.5" y="0.5" width="829" height="207" rx="12" fill="none" stroke="#30363d"/>
 
   <!-- Language -->
   <text x="28" y="39" class="sans lbl">Language</text>
@@ -17,54 +17,36 @@
   <circle cx="230" cy="34" r="3.5" class="dot"/>
   <text x="242" y="39" class="mono txt">C++20</text>
 
-  <!-- Build & toolchain -->
-  <text x="28" y="85" class="sans lbl">Build &amp; toolchain</text>
+  <!-- Platform -->
+  <text x="28" y="85" class="sans lbl">Platform</text>
   <rect x="214" y="64" width="82" height="32" rx="16" class="chip"/>
   <circle cx="230" cy="80" r="3.5" class="dot"/>
-  <text x="242" y="85" class="mono txt">CMake</text>
-  <rect x="306" y="64" width="99" height="32" rx="16" class="chip"/>
+  <text x="242" y="85" class="mono txt">Linux</text>
+  <rect x="306" y="64" width="149" height="32" rx="16" class="chip"/>
   <circle cx="322" cy="80" r="3.5" class="dot"/>
-  <text x="334" y="85" class="mono txt">GCC/G++</text>
+  <text x="334" y="85" class="mono txt">POSIX sockets</text>
 
-  <!-- Networking -->
-  <text x="28" y="131" class="sans lbl">Networking</text>
-  <rect x="214" y="110" width="149" height="32" rx="16" class="chip"/>
+  <!-- Build & toolchain -->
+  <text x="28" y="131" class="sans lbl">Build &amp; toolchain</text>
+  <rect x="214" y="110" width="82" height="32" rx="16" class="chip"/>
   <circle cx="230" cy="126" r="3.5" class="dot"/>
-  <text x="242" y="131" class="mono txt">POSIX sockets</text>
-  <rect x="373" y="110" width="65" height="32" rx="16" class="chip"/>
-  <circle cx="389" cy="126" r="3.5" class="dot"/>
-  <text x="401" y="131" class="mono txt">TCP</text>
-  <rect x="448" y="110" width="233" height="32" rx="16" class="chip"/>
-  <circle cx="464" cy="126" r="3.5" class="dot"/>
-  <text x="476" y="131" class="mono txt">length-prefixed framing</text>
+  <text x="242" y="131" class="mono txt">CMake</text>
+  <rect x="306" y="110" width="99" height="32" rx="16" class="chip"/>
+  <circle cx="322" cy="126" r="3.5" class="dot"/>
+  <text x="334" y="131" class="mono txt">GCC/G++</text>
 
-  <!-- Concurrency -->
-  <text x="28" y="177" class="sans lbl">Concurrency</text>
-  <rect x="214" y="156" width="132" height="32" rx="16" class="chip"/>
+  <!-- Testing & debugging -->
+  <text x="28" y="177" class="sans lbl">Testing &amp; debugging</text>
+  <rect x="214" y="156" width="124" height="32" rx="16" class="chip"/>
   <circle cx="230" cy="172" r="3.5" class="dot"/>
-  <text x="242" y="177" class="mono txt">std::thread</text>
-  <rect x="356" y="156" width="124" height="32" rx="16" class="chip"/>
-  <circle cx="372" cy="172" r="3.5" class="dot"/>
-  <text x="384" y="177" class="mono txt">std::mutex</text>
-  <rect x="490" y="156" width="233" height="32" rx="16" class="chip"/>
-  <circle cx="506" cy="172" r="3.5" class="dot"/>
-  <text x="518" y="177" class="mono txt">std::condition_variable</text>
-
-  <!-- Testing & verification -->
-  <text x="28" y="223" class="sans lbl">Testing &amp; verification</text>
-  <rect x="214" y="202" width="124" height="32" rx="16" class="chip"/>
-  <circle cx="230" cy="218" r="3.5" class="dot"/>
-  <text x="242" y="223" class="mono txt">GoogleTest</text>
-  <rect x="348" y="202" width="166" height="32" rx="16" class="chip"/>
-  <circle cx="364" cy="218" r="3.5" class="dot"/>
-  <text x="376" y="223" class="mono txt">ThreadSanitizer</text>
-  <rect x="524" y="202" width="82" height="32" rx="16" class="chip"/>
-  <circle cx="540" cy="218" r="3.5" class="dot"/>
-  <text x="552" y="223" class="mono txt">UBSan</text>
-
-  <!-- Debugging -->
-  <text x="28" y="269" class="sans lbl">Debugging</text>
-  <rect x="214" y="248" width="90" height="32" rx="16" class="chip"/>
-  <circle cx="230" cy="264" r="3.5" class="dot"/>
-  <text x="242" y="269" class="mono txt">strace</text>
+  <text x="242" y="177" class="mono txt">GoogleTest</text>
+  <rect x="348" y="156" width="166" height="32" rx="16" class="chip"/>
+  <circle cx="364" cy="172" r="3.5" class="dot"/>
+  <text x="376" y="177" class="mono txt">ThreadSanitizer</text>
+  <rect x="524" y="156" width="174" height="32" rx="16" class="chip"/>
+  <circle cx="540" cy="172" r="3.5" class="dot"/>
+  <text x="552" y="177" class="mono txt">AddressSanitizer</text>
+  <rect x="708" y="156" width="90" height="32" rx="16" class="chip"/>
+  <circle cx="724" cy="172" r="3.5" class="dot"/>
+  <text x="736" y="177" class="mono txt">strace</text>
 </svg>

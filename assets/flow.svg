@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 176" role="img" aria-label="Data flow: Producer, TCP server, frame decoder, thread-safe queue, consumer. The queue acknowledges the producer right away.">
+  <style>
+    .sans { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .box { fill: #161b22; stroke: #30363d; stroke-width: 1; }
+    .core { fill: #161b22; stroke: #f34b7d; stroke-width: 1.5; }
+    .t { fill: #e6edf3; font-size: 13px; font-weight: 600; }
+    .s { fill: #8b949e; font-size: 11.5px; }
+    .arrow { stroke: #8b949e; stroke-width: 1.5; fill: none; }
+    .ack { stroke: #f34b7d; stroke-width: 1.5; fill: none; stroke-dasharray: 5 4; stroke-linejoin: round; }
+    .acktxt { fill: #f34b7d; font-size: 12px; }
+  </style>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8b949e"/>
+    </marker>
+    <marker id="ap" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#f34b7d"/>
+    </marker>
+  </defs>
+
+  <rect width="830" height="176" rx="12" fill="#0d1117"/>
+  <rect x="0.5" y="0.5" width="829" height="175" rx="12" fill="none" stroke="#30363d"/>
+
+  <!-- ACK path: queue back to producer -->
+  <text x="331" y="36" text-anchor="middle" class="sans acktxt">ACK right away, without waiting on disk or other nodes</text>
+  <path d="M571 82 V46 H91 V80" class="ack" marker-end="url(#ap)"/>
+
+  <!-- Boxes -->
+  <rect x="27" y="84" width="128" height="64" rx="8" class="box"/>
+  <text x="91" y="112" text-anchor="middle" class="sans t">Producer</text>
+  <text x="91" y="132" text-anchor="middle" class="sans s">sends messages</text>
+
+  <rect x="183" y="84" width="128" height="64" rx="8" class="box"/>
+  <text x="247" y="112" text-anchor="middle" class="sans t">TCP server</text>
+  <text x="247" y="132" text-anchor="middle" class="sans s">POSIX sockets</text>
+
+  <rect x="339" y="84" width="128" height="64" rx="8" class="box"/>
+  <text x="403" y="112" text-anchor="middle" class="sans t">Frame decoder</text>
+  <text x="403" y="132" text-anchor="middle" class="sans s">length-prefixed</text>
+
+  <rect x="495" y="84" width="152" height="64" rx="8" class="core"/>
+  <text x="571" y="112" text-anchor="middle" class="sans t">Thread-safe queue</text>
+  <text x="571" y="132" text-anchor="middle" class="sans s">in-memory</text>
+
+  <rect x="675" y="84" width="128" height="64" rx="8" class="box"/>
+  <text x="739" y="112" text-anchor="middle" class="sans t">Consumer</text>
+  <text x="739" y="132" text-anchor="middle" class="sans s">reads by offset</text>
+
+  <!-- Arrows -->
+  <path d="M159 116 H178" class="arrow" marker-end="url(#ah)"/>
+  <path d="M315 116 H334" class="arrow" marker-end="url(#ah)"/>
+  <path d="M471 116 H490" class="arrow" marker-end="url(#ah)"/>
+  <path d="M651 116 H670" class="arrow" marker-end="url(#ah)"/>
+</svg>

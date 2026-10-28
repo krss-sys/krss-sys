@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 404" role="img" aria-label="aether-stream-layer: an AP-oriented, high-throughput message streaming layer in C++ on top of POSIX sockets and a thread-safe queue. Data flow: producer, TCP server, frame decoder, thread-safe queue, downstream processing, with the queue acknowledging the producer right away without waiting on disk. Design choices: in-memory first, ACK immediately, length-prefixed protocol, plain POSIX and STL.">
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; }
+    .sans { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .box { fill: #161b22; stroke: #30363d; stroke-width: 1; }
+    .core { fill: #161b22; stroke: #f34b7d; stroke-width: 1.5; }
+    .t { fill: #e6edf3; font-size: 13px; font-weight: 600; }
+    .s { fill: #8b949e; font-size: 11.5px; }
+    .arrow { stroke: #8b949e; stroke-width: 1.5; fill: none; }
+    .ack { stroke: #f34b7d; stroke-width: 1.5; fill: none; stroke-dasharray: 5 4; stroke-linejoin: round; }
+    .acktxt { fill: #f34b7d; font-size: 12px; }
+    .lab { fill: #8b949e; font-size: 12px; }
+    .dot { fill: #f34b7d; }
+  </style>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8b949e"/>
+    </marker>
+    <marker id="ap" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#f34b7d"/>
+    </marker>
+  </defs>
+
+  <!-- Card + terminal-style title bar (same look as the banner) -->
+  <rect width="830" height="404" rx="12" fill="#0d1117"/>
+  <path d="M0 40 V12 A12 12 0 0 1 12 0 H818 A12 12 0 0 1 830 12 V40 Z" fill="#161b22"/>
+  <line x1="0" y1="40.5" x2="830" y2="40.5" stroke="#30363d"/>
+  <rect x="0.5" y="0.5" width="829" height="403" rx="12" fill="none" stroke="#30363d"/>
+  <circle cx="26" cy="20.5" r="6" fill="#ff5f56"/>
+  <circle cx="48" cy="20.5" r="6" fill="#ffbd2e"/>
+  <circle cx="70" cy="20.5" r="6" fill="#27c93f"/>
+  <text x="415" y="25" text-anchor="middle" class="mono" font-size="13" fill="#8b949e">krss-sys/aether-stream-layer</text>
+
+  <!-- Description (same wording as the repo description) -->
+  <text x="28" y="76" class="sans" font-size="16" fill="#c9d1d9">An AP-oriented, high-throughput message streaming layer in C++</text>
+  <text x="28" y="99" class="sans" font-size="16" fill="#c9d1d9">on top of POSIX sockets and a thread-safe queue.</text>
+
+  <!-- Data flow -->
+  <text x="28" y="128" class="mono lab"><tspan fill="#f34b7d">#</tspan> data flow</text>
+
+  <text x="331" y="152" text-anchor="middle" class="sans acktxt">ACK right away, without waiting on disk</text>
+  <path d="M571 198 V162 H91 V196" class="ack" marker-end="url(#ap)"/>
+
+  <rect x="27" y="200" width="128" height="64" rx="8" class="box"/>
+  <text x="91" y="228" text-anchor="middle" class="sans t">Producer</text>
+  <text x="91" y="248" text-anchor="middle" class="sans s">sends messages</text>
+
+  <rect x="183" y="200" width="128" height="64" rx="8" class="box"/>
+  <text x="247" y="228" text-anchor="middle" class="sans t">TCP server</text>
+  <text x="247" y="248" text-anchor="middle" class="sans s">POSIX sockets</text>
+
+  <rect x="339" y="200" width="128" height="64" rx="8" class="box"/>
+  <text x="403" y="228" text-anchor="middle" class="sans t">Frame decoder</text>
+  <text x="403" y="248" text-anchor="middle" class="sans s">length-prefixed</text>
+
+  <rect x="495" y="200" width="152" height="64" rx="8" class="core"/>
+  <text x="571" y="228" text-anchor="middle" class="sans t">Thread-safe queue</text>
+  <text x="571" y="248" text-anchor="middle" class="sans s">in-memory</text>
+
+  <rect x="675" y="200" width="128" height="64" rx="8" class="box"/>
+  <text x="739" y="228" text-anchor="middle" class="sans t">Downstream</text>
+  <text x="739" y="248" text-anchor="middle" class="sans s">processing</text>
+
+  <path d="M159 232 H178" class="arrow" marker-end="url(#ah)"/>
+  <path d="M315 232 H334" class="arrow" marker-end="url(#ah)"/>
+  <path d="M471 232 H490" class="arrow" marker-end="url(#ah)"/>
+  <path d="M651 232 H670" class="arrow" marker-end="url(#ah)"/>
+
+  <!-- Design choices -->
+  <text x="28" y="296" class="mono lab"><tspan fill="#f34b7d">#</tspan> design choices</text>
+
+  <rect x="27" y="308" width="186" height="76" rx="8" class="box"/>
+  <circle cx="43" cy="331" r="3.5" class="dot"/>
+  <text x="55" y="336" class="sans t">In-memory first</text>
+  <text x="55" y="356" class="sans s">Disk never blocks writes</text>
+
+  <rect x="223" y="308" width="186" height="76" rx="8" class="box"/>
+  <circle cx="239" cy="331" r="3.5" class="dot"/>
+  <text x="251" y="336" class="sans t">ACK immediately</text>
+  <text x="251" y="356" class="sans s">Fast write ACK over</text>
+  <text x="251" y="372" class="sans s">synchronous persistence</text>
+
+  <rect x="419" y="308" width="186" height="76" rx="8" class="box"/>
+  <circle cx="435" cy="331" r="3.5" class="dot"/>
+  <text x="447" y="336" class="sans t">Length-prefixed</text>
+  <text x="447" y="356" class="sans s">Clear message boundaries</text>
+  <text x="447" y="372" class="sans s">over raw TCP</text>
+
+  <rect x="615" y="308" width="186" height="76" rx="8" class="box"/>
+  <circle cx="631" cy="331" r="3.5" class="dot"/>
+  <text x="643" y="336" class="sans t">Plain POSIX + STL</text>
+  <text x="643" y="356" class="sans s">No frameworks, every</text>
+  <text x="643" y="372" class="sans s">layer stays visible</text>
+</svg>

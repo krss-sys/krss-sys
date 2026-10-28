@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 262 148" role="img" aria-label="learn-cpp: low-level C++ systems programming, network protocols and robust server architecture. Language: C++.">
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; }
+    .sans { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+  </style>
+  <rect x="0.5" y="0.5" width="261" height="147" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <circle cx="22" cy="30" r="3.5" fill="#f34b7d"/>
+  <text x="32" y="34" class="mono" font-size="12.5" font-weight="700" fill="#e6edf3">learn-cpp</text>
+  <text x="20" y="62" class="sans" font-size="12" fill="#8b949e">Low-level C++ systems programming,</text>
+  <text x="20" y="80" class="sans" font-size="12" fill="#8b949e">network protocols and robust server</text>
+  <text x="20" y="98" class="sans" font-size="12" fill="#8b949e">architecture.</text>
+  <line x1="20" y1="114" x2="242" y2="114" stroke="#21262d"/>
+  <circle cx="24" cy="131" r="4" fill="#f34b7d"/>
+  <text x="34" y="135" class="mono" font-size="12" fill="#8b949e">C++</text>
+</svg>

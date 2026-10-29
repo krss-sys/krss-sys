@@ -8,7 +8,7 @@
 
 ## 🚀 Featured Project
 
-<a href="https://github.com/krss-sys/aether-stream-layer"><img src="assets/aether-card.svg" alt="aether-stream-layer: an AP-oriented, high-throughput message streaming layer in C++ on top of POSIX sockets and a thread-safe queue. Data flow: producer, TCP server, frame decoder, thread-safe queue, downstream processing, with the queue acknowledging the producer right away without waiting on disk. Design choices: in-memory first, ACK immediately, length-prefixed protocol, plain POSIX and STL." width="100%"></a>
+<a href="https://github.com/krss-sys/aether-stream-layer"><img src="assets/aether-card-v2.svg" alt="aether-stream-layer: an AP-oriented, high-throughput message streaming layer in C++ on top of POSIX sockets and a thread-safe queue. Data flow: client, TCP server, ThreadPool, echo handler. Design choices: length-prefixed frames, bounded frame size, blocking ThreadPool, plain POSIX and STL." width="100%"></a>
 
 ---
 

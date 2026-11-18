@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 0 300 150" role="img" aria-labelledby="t d">
+  <title id="t">learn-dsa</title>
+  <desc id="d">learn-dsa: data structures and algorithms in C++, focused on memory efficiency and low-level optimization. Archive repository written in C++.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0f1f"/><stop offset="1" stop-color="#171236"/></linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="298.5" height="148.5" rx="14" fill="url(#bg)" stroke="url(#ac)" stroke-opacity="0.28" stroke-width="1.5"/>
+  <rect x="0.75" y="0.75" width="298.5" height="148.5" rx="14" pathLength="1000" fill="none" stroke="url(#ac)" stroke-width="2" stroke-linecap="round" stroke-dasharray="70 930">
+    <animate attributeName="stroke-dashoffset" from="0" to="-1000" dur="8s" begin="-2.500s" repeatCount="indefinite"/>
+  </rect>
+
+  <circle cx="24" cy="32" r="2.500" fill="#a78bfa"><animate attributeName="opacity" values="1;0.2;1" dur="2s" begin="-0.7s" repeatCount="indefinite"/></circle>
+  <text x="34" y="36" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.500" letter-spacing="1" fill="#7f8fb0">archive</text>
+
+  <!-- sorting bars icon -->
+  <g fill="url(#bar)">
+    <rect x="226" width="8" y="40" height="14" rx="2"><animate attributeName="y" values="40;14;40;40" keyTimes="0;0.33;0.66;1" dur="6s" repeatCount="indefinite"/><animate attributeName="height" values="14;40;14;14" keyTimes="0;0.33;0.66;1" dur="6s" repeatCount="indefinite"/></rect>
+    <rect x="237" width="8" y="20" height="34" rx="2"><animate attributeName="y" values="20;26;32;20" keyTimes="0;0.33;0.66;1" dur="6s" repeatCount="indefinite"/><animate attributeName="height" values="34;28;22;34" keyTimes="0;0.33;0.66;1" dur="6s" repeatCount="indefinite"/></rect>
+    <rect x="248" width="8" y="32" height="22" rx="2"><animate attributeName="y" values="32;20;26;32" keyTimes="0;0.33;0.66;1" dur="6s" repeatCount="indefinite"/><animate attributeName="height" values="22;34;28;22" keyTimes="0;0.33;0.66;1" dur="6s" repeatCount="indefinite"/></rect>
+    <rect x="259" width="8" y="14" height="40" rx="2"><animate attributeName="y" values="14;40;20;14" keyTimes="0;0.33;0.66;1" dur="6s" repeatCount="indefinite"/><animate attributeName="height" values="40;14;34;40" keyTimes="0;0.33;0.66;1" dur="6s" repeatCount="indefinite"/></rect>
+    <rect x="270" width="8" y="26" height="28" rx="2"><animate attributeName="y" values="26;32;14;26" keyTimes="0;0.33;0.66;1" dur="6s" repeatCount="indefinite"/><animate attributeName="height" values="28;22;40;28" keyTimes="0;0.33;0.66;1" dur="6s" repeatCount="indefinite"/></rect>
+  </g>
+  <line x1="222" y1="55.500" x2="282" y2="55.500" stroke="#22d3ee" stroke-opacity="0.35"/>
+
+  <text x="22" y="78" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="15" font-weight="700" fill="#e6edf3">learn-dsa</text>
+  <text x="22" y="100" font-family="'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="11.500" fill="#9fb0cc">Data structures &amp; algorithms in C++,</text>
+  <text x="22" y="116" font-family="'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="11.500" fill="#9fb0cc">memory efficiency, low-level tuning.</text>
+
+  <circle cx="24" cy="134" r="4.500" fill="#f34b7d"><animate attributeName="r" values="4;5.200;4" dur="2.4s" begin="-0.8s" repeatCount="indefinite"/></circle>
+  <text x="36" y="138" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#9fb0cc">C++</text>
+</svg>

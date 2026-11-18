@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 0 300 150" role="img" aria-labelledby="t d">
+  <title id="t">learn-cpp</title>
+  <desc id="d">learn-cpp: low-level C++ systems programming, network protocols and server architecture. Archive repository written in C++.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0f1f"/><stop offset="1" stop-color="#171236"/></linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="298.5" height="148.5" rx="14" fill="url(#bg)" stroke="url(#ac)" stroke-opacity="0.28" stroke-width="1.5"/>
+  <rect x="0.75" y="0.75" width="298.5" height="148.5" rx="14" pathLength="1000" fill="none" stroke="url(#ac)" stroke-width="2" stroke-linecap="round" stroke-dasharray="70 930">
+    <animate attributeName="stroke-dashoffset" from="0" to="-1000" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <circle cx="24" cy="32" r="2.500" fill="#a78bfa"><animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/></circle>
+  <text x="34" y="36" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.500" letter-spacing="1" fill="#7f8fb0">archive</text>
+
+  <!-- terminal icon -->
+  <rect x="226" y="18" width="52" height="38" rx="7" fill="#22d3ee" fill-opacity="0.07" stroke="#22d3ee" stroke-opacity="0.55"/>
+  <text x="235" y="43" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="15" font-weight="700" fill="#22d3ee">&gt;</text>
+  <rect x="248" y="41" width="12" height="3" rx="1" fill="#22d3ee"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+
+  <text x="22" y="78" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="15" font-weight="700" fill="#e6edf3">learn-cpp</text>
+  <text x="22" y="100" font-family="'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="11.500" fill="#9fb0cc">Low-level C++ systems programming,</text>
+  <text x="22" y="116" font-family="'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="11.500" fill="#9fb0cc">network protocols, server architecture.</text>
+
+  <circle cx="24" cy="134" r="4.500" fill="#f34b7d"><animate attributeName="r" values="4;5.200;4" dur="2.4s" repeatCount="indefinite"/></circle>
+  <text x="36" y="138" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#9fb0cc">C++</text>
+</svg>

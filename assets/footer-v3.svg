@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="120" viewBox="0 0 900 120" role="img" aria-labelledby="t">
+  <title id="t">Learning in public, one commit at a time.</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0f1f"/><stop offset="1" stop-color="#171236"/></linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <clipPath id="card"><rect width="900" height="120" rx="18"/></clipPath>
+    <path id="w1" d="M-20 100 C 110 84, 230 112, 370 98 S 620 82, 760 100 S 880 110, 930 96"/>
+    <path id="w2" d="M-20 110 C 140 98, 260 116, 420 106 S 700 96, 940 112"/>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="900" height="120" fill="url(#bg)"/>
+    <g fill="#ffffff">
+      <circle cx="80" cy="22" r="1.100"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="3.400s" begin="-0.5s" repeatCount="indefinite"/></circle>
+      <circle cx="240" cy="38" r="1"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.100s" begin="-1.700s" repeatCount="indefinite"/></circle>
+      <circle cx="388" cy="16" r="1.300"><animate attributeName="opacity" values="0.1;1;0.1" dur="2.900s" begin="-0.9s" repeatCount="indefinite"/></circle>
+      <circle cx="560" cy="30" r="1"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="3.700s" begin="-2.300s" repeatCount="indefinite"/></circle>
+      <circle cx="720" cy="18" r="1.200"><animate attributeName="opacity" values="0.1;1;0.1" dur="3.100s" begin="-1.300s" repeatCount="indefinite"/></circle>
+      <circle cx="840" cy="40" r="1"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.500s" begin="-0.2s" repeatCount="indefinite"/></circle>
+    </g>
+    <text x="450" y="52" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="18" font-weight="600" fill="#e6edf3">Learning in public, one commit at a time.</text>
+    <text x="450" y="74" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#7f8fb0">krss-sys  ·  C++ &amp; Linux</text>
+
+    <use xlink:href="#w1" fill="none" stroke="url(#ac)" stroke-opacity="0.45" stroke-width="1.500" stroke-dasharray="3 7"><animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.200s" repeatCount="indefinite"/></use>
+    <use xlink:href="#w2" fill="none" stroke="url(#ac)" stroke-opacity="0.25" stroke-width="1.200" stroke-dasharray="2 8"><animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.800s" repeatCount="indefinite"/></use>
+    <circle r="3.200" fill="#22d3ee"><animateMotion dur="7s" begin="-1s" repeatCount="indefinite"><mpath xlink:href="#w1"/></animateMotion></circle>
+    <circle r="3.200" fill="#a78bfa"><animateMotion dur="7s" begin="-3.300s" repeatCount="indefinite"><mpath xlink:href="#w1"/></animateMotion></circle>
+    <circle r="3.200" fill="#60a5fa"><animateMotion dur="7s" begin="-5.600s" repeatCount="indefinite"><mpath xlink:href="#w1"/></animateMotion></circle>
+    <circle r="2.400" fill="#e0fbff"><animateMotion dur="9s" begin="-2s" repeatCount="indefinite"><mpath xlink:href="#w2"/></animateMotion></circle>
+    <circle r="2.400" fill="#e0fbff"><animateMotion dur="9s" begin="-6.500s" repeatCount="indefinite"><mpath xlink:href="#w2"/></animateMotion></circle>
+  </g>
+  <rect x="0.75" y="0.75" width="898.5" height="118.5" rx="17" fill="none" stroke="url(#ac)" stroke-opacity="0.5" stroke-width="1.500"/>
+</svg>

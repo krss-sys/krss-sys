@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="60" viewBox="0 0 900 60" role="img" aria-label="Contact">
+  <title>Contact</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0a0f1f"/><stop offset="1" stop-color="#171236"/></linearGradient>
+    <path id="rail" d="M320 30 H868"/>
+  </defs>
+  <rect x="0.5" y="0.5" width="899" height="59" rx="14" fill="url(#bg)" stroke="url(#g)" stroke-opacity="0.35"/>
+  <circle cx="30" cy="30" r="4.5" fill="#22d3ee"><animate attributeName="opacity" values="1;0.3;1" dur="1.6s" begin="-1.3s" repeatCount="indefinite"/></circle>
+  <circle cx="30" cy="30" r="4.5" fill="none" stroke="#22d3ee"><animate attributeName="r" values="4.5;13" dur="1.6s" begin="-1.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="1.6s" begin="-1.3s" repeatCount="indefinite"/></circle>
+  <text x="54" y="36" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#6b7a99">04</text>
+  <text x="80" y="38" font-family="'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="22" font-weight="800" fill="url(#g)">Contact</text>
+  <use xlink:href="#rail" fill="none" stroke="url(#g)" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="3 7"><animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.4s" repeatCount="indefinite"/></use>
+  <circle r="3" fill="#e0fbff"><animateMotion dur="3.2s" begin="-2s" repeatCount="indefinite"><mpath xlink:href="#rail"/></animateMotion></circle>
+  <circle r="3" fill="#22d3ee"><animateMotion dur="3.2s" begin="-0.2s" repeatCount="indefinite"><mpath xlink:href="#rail"/></animateMotion></circle>
+  <circle cx="868" cy="30" r="4" fill="none" stroke="#a78bfa" stroke-width="1.5"><animate attributeName="r" values="3;6;3" dur="2s" begin="-1.5s" repeatCount="indefinite"/></circle>
+</svg>

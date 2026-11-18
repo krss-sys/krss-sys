@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250" role="img" aria-labelledby="t d">
+  <title id="t">Toolbox</title>
+  <desc id="d">C++20. Linux and POSIX sockets. CMake and GCC/G++. GoogleTest, ThreadSanitizer, AddressSanitizer and strace.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0f1f"/><stop offset="1" stop-color="#171236"/></linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22d3ee" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="900" height="250" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">
+    <rect width="900" height="250" fill="url(#bg)"/>
+
+    <text x="30" y="36" font-size="13" fill="#6b7a99">~/toolbox <tspan fill="#22d3ee">$</tspan> ls --stack</text>
+    <rect x="206" y="25" width="8" height="14" fill="#22d3ee"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+
+    <g stroke="#1b2444" stroke-width="1">
+      <line x1="30" y1="100" x2="870" y2="100"/>
+      <line x1="30" y1="144" x2="870" y2="144"/>
+      <line x1="30" y1="188" x2="870" y2="188"/>
+    </g>
+
+    <!-- row 1 : language -->
+    <circle cx="30" cy="78" r="3" fill="#22d3ee"><animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/></circle>
+    <text x="44" y="82" font-size="12" fill="#7f8fb0">language</text>
+    <rect x="190" y="63" width="70" height="30" rx="8" fill="#22d3ee" fill-opacity="0.08" stroke="#22d3ee" stroke-opacity="0.4"><animate attributeName="stroke-opacity" values="0.3;0.9;0.3" dur="3.6s" repeatCount="indefinite"/></rect>
+    <text x="225" y="83" text-anchor="middle" font-size="13.5" fill="#e6edf3">C++20</text>
+
+    <!-- row 2 : platform -->
+    <circle cx="30" cy="122" r="3" fill="#60a5fa"><animate attributeName="opacity" values="1;0.25;1" dur="2.4s" begin="-0.6s" repeatCount="indefinite"/></circle>
+    <text x="44" y="126" font-size="12" fill="#7f8fb0">platform</text>
+    <rect x="190" y="107" width="70" height="30" rx="8" fill="#60a5fa" fill-opacity="0.08" stroke="#60a5fa" stroke-opacity="0.4"><animate attributeName="stroke-opacity" values="0.3;0.9;0.3" dur="3.6s" begin="-0.5s" repeatCount="indefinite"/></rect>
+    <text x="225" y="127" text-anchor="middle" font-size="13.5" fill="#e6edf3">Linux</text>
+    <rect x="270" y="107" width="137" height="30" rx="8" fill="#60a5fa" fill-opacity="0.08" stroke="#60a5fa" stroke-opacity="0.4"><animate attributeName="stroke-opacity" values="0.3;0.9;0.3" dur="3.6s" begin="-1s" repeatCount="indefinite"/></rect>
+    <text x="338.500" y="127" text-anchor="middle" font-size="13.5" fill="#e6edf3">POSIX sockets</text>
+
+    <!-- row 3 : build -->
+    <circle cx="30" cy="166" r="3" fill="#a78bfa"><animate attributeName="opacity" values="1;0.25;1" dur="2.4s" begin="-1.2s" repeatCount="indefinite"/></circle>
+    <text x="44" y="170" font-size="12" fill="#7f8fb0">build</text>
+    <rect x="190" y="151" width="70" height="30" rx="8" fill="#a78bfa" fill-opacity="0.08" stroke="#a78bfa" stroke-opacity="0.4"><animate attributeName="stroke-opacity" values="0.3;0.9;0.3" dur="3.6s" begin="-1.5s" repeatCount="indefinite"/></rect>
+    <text x="225" y="171" text-anchor="middle" font-size="13.5" fill="#e6edf3">CMake</text>
+    <rect x="270" y="151" width="87" height="30" rx="8" fill="#a78bfa" fill-opacity="0.08" stroke="#a78bfa" stroke-opacity="0.4"><animate attributeName="stroke-opacity" values="0.3;0.9;0.3" dur="3.6s" begin="-2s" repeatCount="indefinite"/></rect>
+    <text x="313.500" y="171" text-anchor="middle" font-size="13.5" fill="#e6edf3">GCC/G++</text>
+
+    <!-- row 4 : test and debug -->
+    <circle cx="30" cy="210" r="3" fill="#22d3ee"><animate attributeName="opacity" values="1;0.25;1" dur="2.4s" begin="-1.8s" repeatCount="indefinite"/></circle>
+    <text x="44" y="214" font-size="12" fill="#7f8fb0">test &amp; debug</text>
+    <rect x="190" y="195" width="112" height="30" rx="8" fill="#22d3ee" fill-opacity="0.08" stroke="#22d3ee" stroke-opacity="0.4"><animate attributeName="stroke-opacity" values="0.3;0.9;0.3" dur="3.6s" begin="-2.5s" repeatCount="indefinite"/></rect>
+    <text x="246" y="215" text-anchor="middle" font-size="13.5" fill="#e6edf3">GoogleTest</text>
+    <rect x="312" y="195" width="154" height="30" rx="8" fill="#60a5fa" fill-opacity="0.08" stroke="#60a5fa" stroke-opacity="0.4"><animate attributeName="stroke-opacity" values="0.3;0.9;0.3" dur="3.6s" begin="-3s" repeatCount="indefinite"/></rect>
+    <text x="389" y="215" text-anchor="middle" font-size="13.5" fill="#e6edf3">ThreadSanitizer</text>
+    <rect x="476" y="195" width="162" height="30" rx="8" fill="#a78bfa" fill-opacity="0.08" stroke="#a78bfa" stroke-opacity="0.4"><animate attributeName="stroke-opacity" values="0.3;0.9;0.3" dur="3.6s" begin="-3.4s" repeatCount="indefinite"/></rect>
+    <text x="557" y="215" text-anchor="middle" font-size="13.5" fill="#e6edf3">AddressSanitizer</text>
+    <rect x="648" y="195" width="78" height="30" rx="8" fill="#22d3ee" fill-opacity="0.08" stroke="#22d3ee" stroke-opacity="0.4"><animate attributeName="stroke-opacity" values="0.3;0.9;0.3" dur="3.6s" begin="-0.9s" repeatCount="indefinite"/></rect>
+    <text x="687" y="215" text-anchor="middle" font-size="13.5" fill="#e6edf3">strace</text>
+
+    <!-- scanner -->
+    <rect x="-100" y="52" width="100" height="190" fill="url(#scan)">
+      <animate attributeName="x" values="-100;900" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="0.75" y="0.75" width="898.5" height="248.5" rx="17" fill="none" stroke="url(#ac)" stroke-opacity="0.5" stroke-width="1.5"/>
+</svg>
